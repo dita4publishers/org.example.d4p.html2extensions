@@ -5,6 +5,10 @@
   -->
 <plugin id="org.example.d4p.html2extensions">
   <require plugin="org.dita4publishers.html2"/> 
+  
+  <feature extension="package.support.name" value="Eliot Kimber"/>
+  <feature extension="package.support.email" value="ekimber@contrext.com"/>
+  
   <feature extension="xsl.transtype-html2" 
   value="xsl/html2extensions.xsl" type="file"/>  
 </plugin>
